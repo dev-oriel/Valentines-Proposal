@@ -8,7 +8,7 @@ export default function Proposal() {
           <div className="absolute inset-0 bg-primary/10 blur-3xl rounded-full" />
           <h1 className="text-5xl md:text-8xl font-black text-white relative">
             Will you be my <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-rose-400">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-rose-400">
               Valentine?
             </span>
           </h1>
@@ -16,7 +16,7 @@ export default function Proposal() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
           <Link to="/acceptance">
-            <button className="glow-button flex min-w-[200px] items-center justify-center gap-2 rounded-full h-16 px-10 bg-primary text-white text-xl font-bold">
+            <button className="glow-button flex min-w-50 items-center justify-center gap-2 rounded-full h-16 px-10 bg-primary text-white text-xl font-bold">
               Yes <span className="material-symbols-outlined">favorite</span>
             </button>
           </Link>

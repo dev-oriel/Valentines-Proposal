@@ -19,7 +19,7 @@ const Card = ({ icon, title, desc, num }) => (
 
 export default function Appreciation() {
   return (
-    <div className="min-h-screen py-20 px-6 max-w-[1200px] mx-auto text-center">
+    <div className="min-h-screen py-20 px-6 max-w-300 mx-auto text-center">
       <div className="mb-16 space-y-4">
         <h1 className="text-cream text-4xl lg:text-6xl font-bold">
           What I adore about you
