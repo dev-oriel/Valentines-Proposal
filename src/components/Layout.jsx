@@ -32,8 +32,8 @@ export default function Layout({ children }) {
       </motion.main>
 
       {/* Subtle Gold Lines */}
-      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[80%] h-[1px] bg-gradient-to-r from-transparent via-subtle-gold/20 to-transparent z-10" />
-      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[1px] bg-gradient-to-r from-transparent via-subtle-gold/20 to-transparent z-10" />
+      <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[80%] h-px bg-linear-to-r from-transparent via-subtle-gold/20 to-transparent z-10" />
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-px bg-linear-to-r from-transparent via-subtle-gold/20 to-transparent z-10" />
     </div>
   );
 }
