@@ -59,8 +59,8 @@ export default function Appreciation() {
     {
       icon: "volunteer_activism",
       num: "06",
-      title: "Your kind soul.",
-      desc: "The world is a softer, kinder place simply because you are existing in it.",
+      title: "Your caring & kind soul.",
+      desc: "You are very caring, the world is a softer, kinder place simply because you are existing in it.",
     },
   ];
 

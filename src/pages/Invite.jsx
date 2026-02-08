@@ -39,7 +39,7 @@ export default function Invite() {
             </h1>
             <p className="text-blush text-lg leading-relaxed">
               The night is ours. From the first toast to the last dance, choose
-              your adventure.
+              your adventure, and text me your choice
             </p>
           </div>
 

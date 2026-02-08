@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+import memory2 from "../assets/2.jpeg";
+
+import memory1 from "../assets/1.jpeg";
+
 const MemoryEntry = ({ date, title, desc, img, rev }) => (
   <motion.div
     initial={{ opacity: 0, y: 50 }}
@@ -44,7 +48,7 @@ export default function Memories() {
           date="AUGUST 2025"
           title="The first realization."
           desc="It wasn't a grand gesture. From the moment you walked in to vinnyx, I just knew you were very special."
-          img="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000"
+          img={memory2}
         />
 
         <MemoryEntry
@@ -58,7 +62,7 @@ export default function Memories() {
           date="RECENTLY"
           title="The Keeper."
           desc="I have spent enough time with you, I have gotten to understand more about you and honest I trust you enough. and as I always say, you should believe in me as you would with the capenters boy 😂."
-          img="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000"
+          img={memory1}
         />
 
         <div className="text-center pt-20">
