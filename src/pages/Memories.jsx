@@ -41,18 +41,24 @@ export default function Memories() {
         </header>
 
         <MemoryEntry
-          date="Autumn 2021"
+          date="AUGUST 2025"
           title="The first realization."
-          desc="It wasn't a grand gesture. Just the way you listened when I talked about things that didn't matter."
+          desc="It wasn't a grand gesture. From the moment you walked in to vinnyx, I just knew you were very special."
           img="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000"
         />
 
         <MemoryEntry
           rev
-          date="Winter 2022"
+          date="SEPTEMBER 2025"
           title="Where I felt safe."
-          desc="Snow was falling, silence was comfortable. I realized I didn't have to perform. I could just be."
+          desc="I was getting to know you well, and your future intentions became loud when you confessed about the big lie. silence was comfortable, but the truth meant something deeper. I realized how much you were intentional."
           img="https://images.unsplash.com/photo-1482841628122-9080d44bb807?q=80&w=1000"
+        />
+        <MemoryEntry
+          date="RECENTLY"
+          title="The Keeper."
+          desc="I have spent enough time with you, I have gotten to understand more about you and honest I trust you enough. and as I always say, you should believe in me as you would with the capenters boy 😂."
+          img="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000"
         />
 
         <div className="text-center pt-20">
