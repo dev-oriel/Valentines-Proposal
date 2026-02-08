@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #d41142;
+  --color-background-dark: #221015;
+  --color-burgundy-dark: #1a0b0f;
+  --color-blush: #c992a0;
+  --color-cream: #fdf8f5;
+  --color-subtle-gold: #c5a059;
+
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background-dark text-cream antialiased overflow-x-hidden;
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .cinematic-bg {
+    background: linear-gradient(to bottom, rgba(26, 11, 14, 0.8), rgba(34, 16, 21, 0.95)), 
+                url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .glow-button {
+    box-shadow: 0 0 20px rgba(212, 17, 66, 0.4);
+    @apply transition-all duration-300 hover:scale-105 active:scale-95;
+  }
+
+  .grain-overlay {
+    @apply fixed inset-0 pointer-events-none z-50 opacity-[0.03] contrast-150 brightness-150;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+  }
+}
