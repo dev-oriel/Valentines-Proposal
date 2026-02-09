@@ -51,7 +51,7 @@ export default function Invite() {
 
       <footer className="mt-8 md:mt-12 opacity-20 px-4 text-center">
         <p className="text-[8px] md:text-[10px] tracking-[0.4em] uppercase">
-          © 2026 FROM ORIEL • FOR SOMEONE SPECIAL
+          © 2026 FROM ......... • FOR SOMEONE SPECIAL
         </p>
       </footer>
     </div>

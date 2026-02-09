@@ -50,7 +50,7 @@ export default function Memories() {
           date="AUGUST 2025"
           title="The first realization."
           desc="It wasn't a grand gesture. From the moment you walked in to vinnyx, I just knew you were very special."
-          img={memory2}
+          img="https://lh3.googleusercontent.com/aida-public/AB6AXuCkml1r_Jtw6sf3oGT6q1zpDSOYE4c7L_QgGH7SegU6mBFrEpkEqiFz_H7kixdFNbmrn6wOi02NyKuYB4ECyHAFnzJUKa2jAbQQc705zoHxqUnfqKLJAt9eYHwrRTx-TA4MewUyRvlZm0wFzj-t72INIYwMGNbnhqv356QNIhDjUbkvS-7DD2YiEQTUWpvdg4ERkJ-8pgczd1we6CghF9IZxy_QHxzqd2CeTqZj8VKzXea84iYp3l08e3gN6sPyjJOD2sm5d0RGicQ"
         />
         <MemoryEntry
           rev
@@ -62,8 +62,8 @@ export default function Memories() {
         <MemoryEntry
           date="RECENTLY"
           title="The Keeper."
-          desc="I have spent enough time with you... honestly I trust you enough. Believe in me as you would with the carpenters boy 😂."
-          img={memory1}
+          desc="I have spent enough time with you... honestly I trust you enough."
+          img="https://lh3.googleusercontent.com/aida-public/AB6AXuDO91CvvkcF_YGNWIPWapiscjFNOemdpAMxarWwYrihXD_fC-SV4YHgZN7Q_kNGxA2R0Y1Pa5vwbbcGdiRQPlw7x-KkaIOTqXLmoSEhLaEQRIhuPuJMKusAMhQsrJZANxxgbTiOPgG8ZH7kZO_hHbZEzmn4bj4pkx8UJHlxIjuz8dPsgD_wSg0Xyx7LHcoaTMVJsg4SSrla3Z4rhGHoeu_93q6RIDILnh53g5mmRC51WXPsKt9bIGikEbxlKMLsJoicvvpjBSy8-DY"
         />
 
         <div className="text-center pt-12 md:pt-20">
