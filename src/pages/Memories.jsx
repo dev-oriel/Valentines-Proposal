@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import memory2 from "../assets/2.jpeg";
-import memory1 from "../assets/1.jpeg";
+import memory3 from "../assets/3.jpeg";
+import memory4 from "../assets/4.jpeg";
+import memory5 from "../assets/5.jpeg";
 
 const MemoryEntry = ({ date, title, desc, img, rev }) => (
   <motion.div
@@ -49,21 +50,21 @@ export default function Memories() {
         <MemoryEntry
           date="AUGUST 2025"
           title="The first realization."
-          desc="It wasn't a grand gesture. From the moment you walked in to vinnyx, I just knew you were very special."
-          img="https://lh3.googleusercontent.com/aida-public/AB6AXuCkml1r_Jtw6sf3oGT6q1zpDSOYE4c7L_QgGH7SegU6mBFrEpkEqiFz_H7kixdFNbmrn6wOi02NyKuYB4ECyHAFnzJUKa2jAbQQc705zoHxqUnfqKLJAt9eYHwrRTx-TA4MewUyRvlZm0wFzj-t72INIYwMGNbnhqv356QNIhDjUbkvS-7DD2YiEQTUWpvdg4ERkJ-8pgczd1we6CghF9IZxy_QHxzqd2CeTqZj8VKzXea84iYp3l08e3gN6sPyjJOD2sm5d0RGicQ"
+          desc="It wasn't a grand gesture. From the moment I first saw you, I knew you were the one for me, I just knew you were very special."
+          img={memory3}
         />
         <MemoryEntry
           rev
           date="SEPTEMBER 2025"
           title="Where I felt safe."
-          desc="I was getting to know you well, and your truth meant something deeper. I realized how much you were intentional."
-          img="https://images.unsplash.com/photo-1482841628122-9080d44bb807?q=80&w=1000"
+          desc="I was getting to know you well, I realized how much you were intentional. you have been a safe place for me."
+          img={memory5}
         />
         <MemoryEntry
           date="RECENTLY"
           title="The Keeper."
-          desc="I have spent enough time with you... honestly I trust you enough."
-          img="https://lh3.googleusercontent.com/aida-public/AB6AXuDO91CvvkcF_YGNWIPWapiscjFNOemdpAMxarWwYrihXD_fC-SV4YHgZN7Q_kNGxA2R0Y1Pa5vwbbcGdiRQPlw7x-KkaIOTqXLmoSEhLaEQRIhuPuJMKusAMhQsrJZANxxgbTiOPgG8ZH7kZO_hHbZEzmn4bj4pkx8UJHlxIjuz8dPsgD_wSg0Xyx7LHcoaTMVJsg4SSrla3Z4rhGHoeu_93q6RIDILnh53g5mmRC51WXPsKt9bIGikEbxlKMLsJoicvvpjBSy8-DY"
+          desc="I have spent enough time with you, and I know I want a future with you"
+          img={memory4}
         />
 
         <div className="text-center pt-12 md:pt-20">

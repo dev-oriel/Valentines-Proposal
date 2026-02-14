@@ -9,7 +9,7 @@ export default function Hero() {
             favorite
           </span>
           <h2 className="text-cream text-xs md:text-sm font-medium tracking-[0.2em] uppercase whitespace-nowrap">
-            From ...........
+            From your love 😊
           </h2>
         </div>
         <span className="text-cream/40 text-[10px] md:text-xs tracking-widest uppercase">

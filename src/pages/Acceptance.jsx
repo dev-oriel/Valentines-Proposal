@@ -14,12 +14,12 @@ export default function Acceptance() {
           in my life."
         </p>
 
-        <Link to="/invite" className="inline-block pt-6 md:pt-10">
+        {/* <Link to="/invite" className="inline-block pt-6 md:pt-10">
           <button className="glow-button flex items-center gap-3 rounded-full h-14 md:h-16 px-8 md:px-10 bg-primary text-white font-bold text-base md:text-lg cursor-pointer">
             See what’s next{" "}
             <span className="material-symbols-outlined">arrow_forward</span>
           </button>
-        </Link>
+        </Link> */}
       </div>
 
       {/* Floating Petals Decor - Reduced count for mobile performance */}
